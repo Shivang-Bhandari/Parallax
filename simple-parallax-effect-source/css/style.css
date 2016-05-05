@@ -1,0 +1,121 @@
+#social-media{
+  padding: 10%;
+}
+
+
+
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+}
+
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+/*#trophy{
+  background: url(../img/demo/_small/trophy.jpg);
+}*/
+
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/demo/_small/1.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../img/demo/_small/clock.jpg");
+}
+section.module.parallax-5 {
+  background-image: url("../img/demo/_small/code.jpg");
+}
+section.module.parallax-6 {
+  background-image: url("../img/demo/_small/upcoming.jpg");
+}
+
+}
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 110px;
+  }
+}
+
+
+
+
+.header{
+	padding-bottom: 1%;
+	padding-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+/*#parallax{
+	background-image: url("hand.jpg");
+	height: 200px;
+	width: 100%;
+}
+h1{
+	margin: 10%;
+	margin-top: 0;
+	padding: 40%;
+}
+*/
